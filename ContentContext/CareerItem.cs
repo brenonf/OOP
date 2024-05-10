@@ -1,6 +1,8 @@
+using Balta.NotificationContext;
+
 namespace Balta.ContentContext
 {
-    public class CareerItem
+    public class CareerItem : Base
     {
         //public IList<string> Notifications { get; set; }
 
@@ -8,8 +10,9 @@ namespace Balta.ContentContext
         {
             if(course==null)
             {
-                throw new System.Exception("O curso não pode ser Nulo!");
+                AddNotification(new Notification("Course","Curso inválido"));
             }
+
             Ordem = ordem;
             Title = title;
             Description = description;
