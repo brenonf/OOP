@@ -1,5 +1,7 @@
 ﻿using System;
 using Balta.ContentContext;
+using Balta.SharedContext;
+
 
 namespace Balta
 {
@@ -20,6 +22,7 @@ namespace Balta
             //     Console.WriteLine(article.Url);
 
             // }
+            
             var courses = new List<Course>();
             var courseOOP = new Course("Fundamentos OPP","fundamentos-oop");
             var courseCsharp = new Course("Fundamentos C#","fundamentos-csharp");

@@ -1,3 +1,6 @@
+using Balta.SubscriptionContext;
+using Microsoft.VisualBasic;
+
 namespace Balta.ContentContext{
     public class Career:Content
     {
@@ -14,6 +17,7 @@ namespace Balta.ContentContext{
                 return Items.Count;
             }
         }
+        
     }
 
     

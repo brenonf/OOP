@@ -1,4 +1,5 @@
 using Balta.NotificationContext;
+using Balta.SharedContext;
 
 namespace Balta.ContentContext
 {
@@ -12,7 +13,7 @@ namespace Balta.ContentContext
             {
                 AddNotification(new Notification("Course","Curso inválido"));
             }
-
+            
             Ordem = ordem;
             Title = title;
             Description = description;
